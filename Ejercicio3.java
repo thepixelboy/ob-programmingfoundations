@@ -2,20 +2,21 @@ class Ejercicio3 {
   public static void main(String[] args) {
     // Primera parte
     int resultado = suma(5, 3, 9);
-    System.out.println(resultado);
+    System.out.println("Suma: " + resultado);
 
     // Segunda parte
     Coche miCoche = new Coche();
     miCoche.AgregarPuerta();
 
-    System.out.println(miCoche.puertas);
+    System.out.println("Puertas: " + miCoche.puertas);
 }
 
-// Primera parte:
-// - Crear una función con tres parámetros que sean números que se suman entre sí.
-// - Llamar a la función en el main y darle valores.
-public static int suma(int num1, int num2, int num3) {
-  return num1 + num2 + num3;
+  // Primera parte:
+  // - Crear una función con tres parámetros que sean números que se suman entre sí.
+  // - Llamar a la función en el main y darle valores.
+  public static int suma(int num1, int num2, int num3) {
+    return num1 + num2 + num3;
+  }
 }
 
 // Segunda parte:
